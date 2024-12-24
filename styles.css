@@ -1,0 +1,18 @@
+body {
+    
+}
+
+header {
+
+}
+
+.container {
+    width: 420px;
+    height: 714px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header {
+    background-image: url(images/ship.png);
+}
