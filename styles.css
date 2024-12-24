@@ -14,5 +14,5 @@ header {
 }
 
 .header {
-    background: url(images/ship.png);
+    background-image: url("images/ship.png");
 }
