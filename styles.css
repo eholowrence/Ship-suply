@@ -11,8 +11,11 @@ header {
     height: 714px;
     gap: 0px;
     opacity: 0px;
+    background: rgba(35, 5, 119, 1) url("images/ship.png") 420px 714px;
+    max-width: 420px;
+    max-height: 714px;
 }
 
 .header {
-    background-image: url("images/ship.png");
+    
 }
