@@ -1,5 +1,18 @@
+.inter-font {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 body {
-    
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20.57px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
 }
 
 header {
@@ -10,7 +23,7 @@ header {
     width: 420px;
     height: 714px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 1;
     background: rgba(35, 5, 119, 1) url("images/ship.png") 420px 714px;
     max-width: 420px;
     max-height: 714px;
@@ -18,4 +31,57 @@ header {
 
 .header {
     
+}
+
+.logo {
+  width: 259px;
+  height: 48.13px;
+  margin-top: 52px;
+  margin-left: 80px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav {
+  margin-left: 80px;
+  margin-top: 82.87px;
+  text-transform: uppercase;
+}
+
+a .menu-items {
+  width: 265px;
+  height: 24px;
+}
+
+.contacts-list {
+font-size: 16px;
+font-weight: 200;
+line-height: 19.36px;
+text-align: left;
+text-underline-position: from-font;
+
+}
+
+.call-button {
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+text-decoration: none;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+background-color: rgba(35, 5, 119, 0);
+margin-left: 80px;
+}
+
+button {
+  border: 1px;
+  border-radius: 20px;
+  border-color: #FFFFFF;
+  
 }
