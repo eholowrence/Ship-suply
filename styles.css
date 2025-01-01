@@ -56,7 +56,6 @@ header {
   margin-left: 0px;
   padding-left: 0px;
   padding-bottom: 43px;
-  margin-top: 82.87px;
   display: block;
   font-family: Inter;
   font-size: 20px;
@@ -66,6 +65,10 @@ header {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
+}
+
+.menu-items:nth-of-type(1) {
+  margin-top: 82.87px;
 }
 
 .contacts-list {
