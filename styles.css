@@ -77,15 +77,17 @@ font-weight: 200;
 line-height: 19.36px;
 text-align: left;
 text-underline-position: from-font;
-
+margin-left: 40px;
 }
 
 .call-button {
-  font-family: Inter;
+width: 164px;
+height: 38px;
+font-family: Inter;
 font-size: 16px;
 font-weight: 400;
 line-height: 19.36px;
-text-align: left;
+text-align: center;
 text-decoration: none;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
@@ -94,6 +96,8 @@ background-color: rgba(35, 5, 119, 0);
 margin-left: 80px;
 border-radius: 9px;
 border: 1px solid #FFFFFF;
+margin-top: 30px;
+margin-bottom: 110px;
 }
 
 button {
@@ -105,4 +109,17 @@ button {
 
 ul {
   list-style: none;
+}
+
+.contacts-items a {
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-right: 9px;
+}
+
+.contacts-items {
+  padding-bottom: 11px;
+  color: #FFFFFF;
 }
