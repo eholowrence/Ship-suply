@@ -12,7 +12,8 @@ body {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  
+  display: grid;
+  grid-template-columns: 420px 1fr;  
 }
 
 header {
@@ -43,7 +44,19 @@ header {
 .nav a {
   text-decoration: none;
   color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all.3s;
 }
+
+.nav a:hover {
+  color: #1BD9FF;
+}
+
+.nav a svg path {transition: all.3s;}
+
+.nav a:hover svg path {fill: #1BD9FF;}
 
 .nav {
   margin-left: 40px;
@@ -122,4 +135,107 @@ ul {
 .contacts-items {
   padding-bottom: 11px;
   color: #FFFFFF;
+}
+
+.about {
+font-family: Inter;
+font-size: 13px;
+font-weight: 100;
+line-height: 15.73px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 53px;
+}
+
+.about-text {
+  font-family: Inter;
+font-size: 17px;
+font-weight: 300;
+line-height: 20.57px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+main {
+  padding-left: 51px;
+  max-width: 649px;
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 45px;
+  column-gap: 64px;
+  justify-content: space-around;
+}
+
+input {
+  border-radius: 9px;
+  border: 1px solid #ACACAC;
+  padding: 9px 595px 10px 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 29px;
+  max-width: 649px;
+}
+
+textarea {
+  border-radius: 9px;
+  border: 1px solid #ACACAC;
+  padding: 9px 537px 116px 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ACACAC;
+}
+
+.error {
+  border: 1px solid #FF0000;
+  border-radius: 9px0;
+  color: #FF0000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+input.error::placeholder {
+  color: #FF0000;
+}
+
+input:focus{outline: none;}
+
+.form-button {
+  background: #ACACAC;
+  width: 164px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  padding: 9px 40px 10px 39px;
+  margin-left: auto;
 }
