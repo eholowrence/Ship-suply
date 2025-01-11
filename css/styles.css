@@ -16,7 +16,7 @@ body {
     height: 714px;
     gap: 0px;
     opacity: 1;
-    background: rgba(35, 5, 119, 1) url("images/ship.png") 420px 714px;
+    background: rgba(35, 5, 119, 1) url("../images/ship.png") 420px 714px;
     max-width: 420px;
     max-height: 714px;
 }
@@ -66,9 +66,6 @@ a {
   font-size: 20px;
   font-weight: 400;
   line-height: 24.2px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 
 }
 
@@ -135,19 +132,24 @@ font-size: 13px;
 font-weight: 100;
 line-height: 15.73px;
 text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 margin-top: 53px;
 }
 
-.about-text {
+.about-text-1 {
   font-family: Inter;
 font-size: 17px;
 font-weight: 300;
 line-height: 20.57px;
 text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+}
+
+.about-text-2 {
+  font-family: Inter;
+font-size: 17px;
+font-weight: 300;
+line-height: 20.57px;
+text-align: left;
+margin-bottom: 40px;
 }
 
 main {

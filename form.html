@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
     <link rel="stylesheet" href="css/styles.css"> 
 </head>
 
@@ -22,6 +22,9 @@
                     <li class="menu-items">
                         <a href="index.html">
                             О компании
+                            <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5.45878V0L16 9.50017L0 19V13.5412L6.8062 9.50017L0 5.45878Z" fill="white"/>
+                                </svg>
                         </a>
                     </li>
                     <li class="menu-items">
@@ -35,9 +38,6 @@
                     <li class="menu-items">
                         <a href="form.html">
                             Сделать заказ
-                            <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5.45878V0L16 9.50017L0 19V13.5412L6.8062 9.50017L0 5.45878Z" fill="white"/>
-                                </svg>
                         </a>
                     </li>
                 </ul>
@@ -57,23 +57,27 @@
         </header>
     </div>
     <main>
-        <p class="about about-form">Сделать заказ</p>
+        <h1 class="about about-form">Сделать заказ</h1>
         <p class="connect">Свяжитесь с нами*</p>
         <form>
             <input class="form-input"
             type="text" 
             placeholder="Имя"
+            name="name"
             >
             <input class="form-input"
             type="tel"
             placeholder="+7 (___)"
+            name="phone"
             >
             <input class="form-input"
             type="email"
             placeholder="E-mail"
+            name="email"
             >
             <textarea class="form-input"
             placeholder="Сообщение"
+            name="message"
             ></textarea>
             <button class="form-button">Отправить</button>
         </form>
